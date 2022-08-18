@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #474843ff;
+}
+
+.banner {
+    background-color: #bb352aff;
+    height: auto;
+    padding: 10px;
+    display: inline-block;
+}
+
+/* ALIGN */
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.center-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+.right {
+    align-content: flex-end;
+}
+
+  /* COLORS */
+
+  .white {
+    color: white;
+  }
