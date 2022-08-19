@@ -1,21 +1,37 @@
 body {
     margin: 0;
     font-family: 'Quicksand', sans-serif;
-    background-color: #474843ff;
+    background-color: black;
 }
 
-.banner {
-    /* background-color: #bb352aff; */
+a {
+  text-decoration: none;
+}
+
+.header {
     height: auto;
     width: 100%;
     padding: 10px;
-    display: inline-block;
+    /* display: inline-block; */
+    z-index: 20;
+}
+
+.social-bar {
+  position: fixed;
+  top: 50%;
+  margin: 20px;
+  z-index: 3;
+}
+
+.social-bar a:hover{
+  text-decoration: none;
+  color: white
 }
 
 /* ALIGN */
 
 .center {
-    display: grid;
+    /* display: grid; */
     margin-left: auto;
     margin-right: auto;
     justify-content: center;
@@ -33,8 +49,16 @@ body {
     align-content: flex-end;
 }
 
-  /* COLORS */
+/* COLORS */
 
-  .white {
+.white {
     color: white;
   }
+
+/* POSITION */
+
+.relative-carousel {
+  margin-top: -100px;
+  z-index: -2;
+  position: relative;
+}
