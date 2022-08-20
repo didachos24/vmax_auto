@@ -8,12 +8,18 @@ a {
   text-decoration: none;
 }
 
+p {
+  font-size: large;
+}
+
+
 .header {
     height: auto;
     width: 100%;
     padding: 10px;
-    /* display: inline-block; */
     z-index: 20;
+    /* position: fixed;
+    top: 1px */
 }
 
 .social-bar {
@@ -31,9 +37,9 @@ a {
 /* ALIGN */
 
 .center {
-    /* display: grid; */
-    margin-left: auto;
-    margin-right: auto;
+    display: grid;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
     justify-content: center;
 }
 
@@ -61,4 +67,10 @@ a {
   margin-top: -100px;
   z-index: -2;
   position: relative;
+}
+
+@media (max-width: 600px) {
+  p {
+    font-size: medium;
+  }
 }
