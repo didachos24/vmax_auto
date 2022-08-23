@@ -24,7 +24,7 @@ p {
 
 .social-bar {
   position: fixed;
-  top: 50%;
+  top: 40%;
   margin: 20px;
   z-index: 3;
 }
@@ -67,6 +67,13 @@ p {
   margin-top: -100px;
   z-index: -2;
   position: relative;
+}
+
+/* IMAGES */
+
+.img-car {
+  max-height: 15%;
+  width: auto;
 }
 
 @media (max-width: 600px) {
