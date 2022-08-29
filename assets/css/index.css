@@ -46,6 +46,13 @@ p {
     justify-content: center;
 }
 
+.center-card {
+  display: grid;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+
 .center-logo {
     display: grid;
     margin-left: auto;
@@ -90,8 +97,7 @@ p {
     font-size: large ;
   }
 
-  .no-display {
-    width: 100%;
-    height: auto;
+  .no-display-small {
+    display: none
   }
 }
