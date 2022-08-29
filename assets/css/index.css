@@ -12,6 +12,9 @@ p {
   font-size: large;
 }
 
+.fs-3 {
+  font-family: 'Quicksand', sans-serif;
+}
 
 .header {
     height: auto;
@@ -76,8 +79,19 @@ p {
   width: auto;
 }
 
+.vertical-car {
+  height: 100%;
+}
+
 @media (max-width: 600px) {
   p {
     font-size: medium;
+    text-align: center;
+    font-size: large ;
+  }
+
+  .no-display {
+    width: 100%;
+    height: auto;
   }
 }
