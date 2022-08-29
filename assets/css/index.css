@@ -90,7 +90,7 @@ p {
   height: 100%;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 540px) {
   p {
     font-size: medium;
     text-align: center;
