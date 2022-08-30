@@ -79,6 +79,20 @@ p {
   position: relative;
 }
 
+.footer {
+  padding: 20px;
+  bottom: 0;
+  width: 100%;
+  /* background-color: darkgrey; */
+  text-align: center;
+  text-decoration: none;
+  display: flexbox;
+}
+
+.footer a:hover{
+  text-decoration: none;
+}
+
 /* IMAGES */
 
 .img-car {
