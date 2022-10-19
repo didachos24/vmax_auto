@@ -125,4 +125,8 @@ p {
   .no-display-small {
     display: none
   }
+  
+  .relative-carousel {
+    margin-top: 0px;
+  }
 }
