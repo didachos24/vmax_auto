@@ -18,6 +18,10 @@ p {
   font-family: 'Quicksand', sans-serif;
 }
 
+.x-small {
+  font-size: xx-small;
+}
+
 .small-note {
   font-size: small;
   color: lightgray;
@@ -88,15 +92,14 @@ p {
 }
 
 .footer {
-  padding: 20px;
+  padding: 40px;
   bottom: 0;
   width: 100%;
   /* background-color: darkgrey; */
-  text-align: right;
+  text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: x-small;
-  float: right;
+  font-size: small;
 }
 
 .footer a:hover{
